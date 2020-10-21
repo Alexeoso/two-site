@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<!--.Название сайта.-->
+	<title>FLEXBOX</title>
+
+	<!--.Кодировка.-->
+	<meta charset="UTF-8">
+
+	<!--.Подключение CSS.-->
+	<link rel="stylesheet" href="style/style.css">
+
+	<!--...Настройка адаптивности страницы...-->
+	<!--Фиксированая ширина-->
+	<!--<meta name="viewport" content="width=1440">-->
+	<!--Адаптивность-->
+	<!--<meta name="viewport" content="width=device-width">-->
+	<!--Адаптивность с отображением на мобильных устройствах-->
+	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
+	<!--Отключает принудительную ссылку у номера телефона на iOS-->
+	<!--<meta name="format-detection" content="telephone=no">-->
+
+	<!--SEO (SEARCH ENGINE OPTIMIZATION)-->
+	<!--Краткое описание страницы-->
+	<meta name="description" content="До 140 символов. Тут описание сайта">
+	<!--. Ключевые слова страницы .-->
+	<meta name="keywords" content="кл-слово, кл-слово, кл-слово, Не больше 20 слов">
+	<!-- Управление доступом поисковых роботов к странице -->
+	<meta name="robots" content="none">
+	<!--. Афтор страницы .-->
+	<meta name="Author" content="Тот самый Я">
+	<!--. Афторские права .-->
+	<meta name="Copyright" content="Алексея. У">
+	<!--. Адрес афтора .-->
+	<meta name="Address" content="Адрес">
+
+	<!-- Редирект (перезагрузка) страниы -->
+	<!-- Задержка в секундах; url=Адрес сайта/страницы -->
+	<!--<meta http-equiv="refresh" content="0; url=">-->
+
+	<!--Вид страниы в посте на Facebook
+	
+	 локализация сайта, для русскоязычного сайта ru_RU -->
+	<!--<meta property="og:locale" content="ru_RU">-->
+	<!-- тип контента, по умолчанию используется article -->
+	<!--<meta property="og:type" content="article">-->
+	<!-- заголовок страницы, который будет выводится в записи социальной сети -->
+	<!--<meta property="og:title" content="META теги">-->
+	<!-- описание страницы -->
+	<!--<meta property="og:description" content="Описание страницы про META теги">-->
+	<!-- ссылка на изображение, которое будет публиковаться в записи -->
+	<!--<meta property="og:image" content="http://fls.guru/meta/img/bg.jpg">-->
+	<!-- ссылка на текущую страницу -->
+	<!--<meta property="og:url" content="http://fls.guru/meta/ ">-->
+	<!-- название сайта -->
+	<!--<meta property="og:site_name" content="Фрилансер по жизни">-->
+	<!--Проверить разметку можно в валидаторе от Facebook https://developers.facebook.com/tools/debug/sharing/-->
+
+	<!--VK _уже_ не надо настраивать-->
+	<!--Для создания Twitter Cards:
+
+	 Тип карты, по умолчанию используется summary -->
+	<!--<meta name="twitter:card" content="summary">-->
+	<!-- Имя/логин автора -->
+	<!--<meta name="twitter:site" content="Жека">-->
+	<!-- Название страницы -->
+	<!--<meta name="twitter:title" content="META теги">-->
+	<!-- Описание страницы -->
+	<!--<meta name="twitter:description" content="про META теги">-->
+	<!-- Cсылка на изображение -->
+	<!--<meta name="twitter:image" content="http://fls.guru/meta/img/bg.jpg">-->
+	<!--Проверяем результат в валидаторе твиттер https://cards-dev.twitter.com/validator-->
+
+
+
+
+</head>
+
+<body>
+	<main class="wrapper">
+<header class="header">
+	<div class="header__container container">
+		<div class="header__logo logo">AX<span class="span-1">I</span><span class="span-2">T</span></div>
+		<nav class="header__nav">
+			<ul class="header__ul">
+				<a href="" class="header__li header__li_one">Features</a>
+				<a href="" class="header__li header__li_two">About</a>
+				<a href="" class="header__li header__li_three">Pricing</a>
+				<a href="" class="header__li header__li_four">Reviews</a>
+				<a href="" class="header__li header__li_five">Contact</a>
+			</ul>
+		</nav>
+	</div>
+</header>		<div class="one">
+			<div class="container one__container">
+				<section class="one__left">
+					<h1 class="one__title">Insert your picture here</h1>
+					<div class="one__logo logo">AX<span>IT</span></div>
+					<h2 class="one__h2 after-left">MODERN AXURE TEMPLATE <br>
+						FOR BEAUTIFUL PROTOTYPES</h2>
+					<p class="one__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br>
+						euismod bibendum laoreet. Proin gravida dolor sit amet lacus <br>
+						accumsan et viverra justo commodo.</p>
+					<a href="" class="one__button">Download</a>
+				</section>
+
+				<div class="one__right">
+					<form action="#" method="POST" class="one__form form-1" name="form">
+						<div class="form-1__top">Try Your <span>FREE</span> Trial Today</div>
+						<div class="form-1__center">
+							<input tabindex="1" type="text" form="form" placeholder="Name" class="form-1__name">
+							<input tabindex="2" type="email" form="form" placeholder="Emale" class="form-1__emale">
+							<input tabindex="3" type="password" form="form" placeholder="Password" class="form-1__password">
+						</div>
+						<input class="form-1__submit" type="submit" form="form" name="submit" value="Get Started">
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="two">
+			<div class="two__container container">
+				<section class="two__left">
+					<h2 class="two__title">Social Media</h2>
+					<p class="two__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+						Aenean euismod bibendum laoreet.</p>
+				</section>
+
+				<div class="two__right">
+					<div class="two__network">
+						<a href="https://ru-ru.facebook.com/" class="two__a-1"></a>
+						<a href="https://twitter.com/" class="two__a-2"></a>
+						<a href="https://www.google.ru/" class="two__a-3"></a>
+						<a href="https://www.pinterest.ru/" class="two__a-4"></a>
+						<a href="https://www.instagram.com/" class="two__a-5"></a>
+						<a href="https://vk.com/feed" class="two__a-6"></a>
+						<a href="https://ok.ru/" class="two__a-7"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="three">
+			<div class="three__container container">
+				<div class="three__left">
+					<div class="three__sentence three__sentence__one">TAB 1</div>
+					<div class="three__sentence three__sentence__two">TAB 2</div>
+					<div class="three__sentence three__sentence__three">TAB 3</div>
+				</div>
+				
+				<section class="three__center three__center_one">
+					<h2 class="three__title">Tabs with soft transitioning effect.</h2>
+					<p class="three__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+						bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra <br>
+						justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque <br>
+						penatibus et magnis dis parturient montes.
+
+						<span>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+							bibendum laoreet.
+						</span>
+					</p>
+					<a href="" class="three__buttom">Download</a>
+				</section>
+				<section class="three__center three__center_two">
+					<h2 class="three__title"></h2>
+					<p class="three__text"></p>
+					<a href="" class="three__buttom">Download</a>
+				</section>
+				<section class="three__center three__center_three">
+					<h2 class="three__title"></h2>
+					<p class="three__text"></p>
+					<a href="" class="three__buttom">Download</a>
+				</section>
+				
+
+				<div class="three__right">
+					<div class="three__emage">
+						<img src="/img/city.jpg" alt="/img/city.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="four">
+			<div class="four__container container">
+				<div class="four__left">
+					<div class="four__emage emage">
+						<img src="#" alt="Insert your
+						picture here">
+					</div>
+				</div>
+
+				<section class="four__right">
+					<h2 class="four__title after-left">Sub list section</h2>
+					<p class="four__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br>
+						euismod bibendum laoreet. Proin gravida dolor sit amet lacus <br>
+						accumsan et viverra justo commodo.</p>
+
+					<h3 class="four__title-h3">Title</h3>
+					<p class="four__text-h3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+						Aenean euismod bibendum laoreet.</p>
+					<h3 class="four__title-h3 four__title-h3_two">Title</h3>
+					<p class="four__text-h3 four__text-h3_two">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+						Aenean euismod bibendum laoreet. Proin gravida dolor <br>
+						sit amet lacus accumsan et viverra justo commodo.</p>
+				</section>
+			</div>
+		</div>
+
+
+		<div class="five">
+			<div class="five__container container">
+				<section class="five__left">
+					<h2 class="five__title after-left">Standard Picture Section</h2>
+					<p class="five__text">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br>
+						euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan <br>
+						et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis <br>
+						natoque penatibus et magnis dis parturient montes.
+
+						<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod <br>
+							bibendum laoreet.
+						</span>
+					</p>
+				</section>
+
+				<div class="five__right">
+					<div class="five__emage emage">
+						<img src="#" alt="Insert your
+						picture here">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="six">
+			<div class="six__container container">
+				<section class="six__top">
+					<h2 class="six__title after-center">WHY THIS IS AWESOME</h2>
+					<p class="six__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</section>
+
+				<div class="six__bottom">
+					<div class="six__column-1 columns-six">
+						<div class="columns-six__emage">
+							<img src="/img/lamp.jpg" alt="/img/lamp.jpg">
+						</div>
+						<h3 class="columns-six__title">Thoughtful Design</h3>
+						<p class="columns-six__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Aenean euismod bibendum laoreet. Proin gravida
+							dolor sit amet lacus accumsan et viverra.</p>
+					</div>
+
+					<div class="six__column-2 columns-six">
+						<div class="columns-six__emage">
+							<img src="/img/keyboard.jpg" alt="/img/keyboard.jpg">
+						</div>
+						<h3 class="columns-six__title">Well Crafted</h3>
+						<p class="columns-six__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Aenean euismod bibendum laoreet. Proin gravida
+							dolor sit amet lacus accumsan et viverra.</p>
+					</div>
+
+					<div class="six__column-3 columns-six">
+						<div class="columns-six__emage">
+							<img src="/img/lightning.jpg" alt="/img/lightning.jpg">
+						</div>
+						<h3 class="columns-six__title">Easy to Customize</h3>
+						<p class="columns-six__text">Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Aenean euismod bibendum laoreet. Proin gravida
+							dolor sit amet lacus accumsan et viverra.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="seven">
+			<div class="seven__container container">
+				<section class="seven__top">
+					<h2 class="seven__title after-center">PRICING OPTIONS</h2>
+					<p class="seven__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</section>
+
+				<div class="seven__bottom">
+					<div class="seven__colums1 columns-seven">
+						<h3 class="columns-seven__title">Basic</h3>
+						<div class="columns-seven__price">$ <span>0</span></div>
+						<div class="columns-seven__price-text">Free for Life</div>
+
+						<ul class="columns-seven__ul">
+							<li class="columns-seven__li">1 gb of space</li>
+							<li class="columns-seven__li">10 gb of bandwidth</li>
+							<li class="columns-seven__li">3 websites</li>
+							<li class="columns-seven__li">Basic Customization</li>
+							<li class="columns-seven__li">wordpress integration</li>
+							<li class="columns-seven__li">email support</li>
+						</ul>
+					</div>
+
+					<div class="seven__colums2 columns-seven">
+						<h3 class="columns-seven__title">Professional</h3>
+						<div class="columns-seven__price">$ <span>19</span></div>
+						<div class="columns-seven__price-text">Monthly Payment</div>
+						<div class="columns-seven__feature">OUR MOST POPULAR</div>
+
+						<ul class="columns-seven__ul">
+							<li class="columns-seven__li">5 gb of space</li>
+							<li class="columns-seven__li">50 gb of bandwidth</li>
+							<li class="columns-seven__li">12 websites</li>
+							<li class="columns-seven__li">Advanced Customization</li>
+							<li class="columns-seven__li">wordpress integration</li>
+							<li class="columns-seven__li">email support</li>
+						</ul>
+					</div>
+
+					<div class="seven__colums3 columns-seven">
+						<h3 class="columns-seven__title">Enterprise</h3>
+						<div class="columns-seven__price">$ <span>70</span></div>
+						<div class="columns-seven__price-text">Monthly Payment</div>
+
+						<ul class="columns-seven__ul">
+							<li class="columns-seven__li">Unlimited space</li>
+							<li class="columns-seven__li">unlimited bandwidth</li>
+							<li class="columns-seven__li">100 websites</li>
+							<li class="columns-seven__li">Advanced Customization</li>
+							<li class="columns-seven__li">wordpress integration</li>
+							<li class="columns-seven__li">24/7 customer support</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="eight">
+			<div class="eight__container container">
+				<section class="eight__top">
+					<h2 class="eight__title after-center">WHAT OUR CUSTOMERS ARE SAYING</h2>
+					<p class="eight__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</section>
+
+				<div class="eight__tbottom">
+					<div class="eight__column1 columns-eight">
+						<div class="columns-eight__top">
+							Lorem ipsum dolor sit amet, <br>
+							consectetur adipisicing elit. Doloribus
+							accusamus expedita repellat similique
+							odio aspernatur ex, architecto eaque<br>
+							quo suscipit.
+						</div>
+
+						<div class="columns-eight__bottom">
+							<div class="columns-eight__thoto">
+								<img src="" alt="">
+							</div>
+							<div class="columns-eight__worker">
+								<div class="columns-eight__name">Jeremy H.</div>
+								<div class="columns-eight__position">Manager</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="eight__column2 columns-eight">
+						<div class="columns-eight__top">
+							Lorem ipsum dolor sit amet, <br>
+							consectetur adipisicing elit. Doloribus
+							accusamus expedita repellat similique
+							odio aspernatur ex, architecto eaque<br>
+							quo suscipit.
+						</div>
+
+						<div class="columns-eight__bottom">
+							<div class="columns-eight__thoto">
+								<img src="" alt="">
+							</div>
+							<div class="columns-eight__worker">
+								<div class="columns-eight__name">John S.</div>
+								<div class="columns-eight__position">Freelancer</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="eight__column3 columns-eight">
+						<div class="columns-eight__top">
+							Lorem ipsum dolor sit amet, <br>
+							consectetur adipisicing elit. Doloribus
+							accusamus expedita repellat similique
+							odio aspernatur ex, architecto eaque<br>
+							quo suscipit.
+						</div>
+
+						<div class="columns-eight__bottom">
+							<div class="columns-eight__thoto">
+								<img src="" alt="">
+							</div>
+							<div class="columns-eight__worker">
+								<div class="columns-eight__name">Susan W.</div>
+								<div class="columns-eight__position">Photographer</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="nine">
+			<div class="nine__container container">
+				<h2 class="nine__title after-center">STYLISH AXURE DESIGN</h2>
+				<p class="nine__text">Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster than ever!</p>
+				<a href="" class="nine__button">Download</a>
+				<div class="nine__image">
+					<img src="" alt="Insert your picture here">
+				</div>
+			</div>
+		</div>
+
+
+		<div class="ten">
+			<div class="ten__container container">
+				<section class="ten__top">
+					<h2 class="ten__title after-center">CONTACT US</h2>
+					<p class="ten__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+				</section>
+
+				<div class="ten__bottom">
+					<form action="#" method="POST" name="form-2" class="ten__form form-2">
+						<div class="form-2__left">
+							<input tabindex="4" type="text" form="form-2" name="" placeholder="Name" class="form-2__name">
+							<input tabindex="5" type="email" form="form-2" name="" placeholder="Email" class="form-2__emale">
+							<input tabindex="6" type="text" form="form-2" name="" placeholder="Subject" class="form-2__subject" list="subject">
+							<datalist class="form-2__option" id="subject">
+								<option value="Чебурашка"></option>
+								<option value="Крокодил Гена"></option>
+								<option value="Шапокляк"></option>
+								<option value="Создатель этого сайта"></option>
+							</datalist>
+						</div>
+
+						<div class="form-2__right">
+							<!-- <div class="form-2__title-textarea">Message</div> -->
+							<textarea tabindex="7" name="textarea" form="form-2" class="form-2__textarea" placeholder="Message"></textarea>
+						</div>
+
+						<input class="form-2__submit" type="submit" form="form-2" name="submit" value="Send Message">
+					</form>
+				</div>
+			</div>
+		</div>
+<footer class="footer">
+	<div class="container footer__container">
+		<div class="footer__network">
+			<a href="https://ru-ru.facebook.com/" class="footer__a-1"></a>
+			<a href="https://twitter.com/" class="footer__a-2"></a>
+			<a href="https://www.google.ru/" class="footer__a-3"></a>
+			<a href="https://www.pinterest.ru/" class="footer__a-4"></a>
+			<a href="https://www.instagram.com/" class="footer__a-5"></a>
+			<a href="https://vk.com/feed" class="footer__a-6"></a>
+			<a href="https://ok.ru/" class="footer__a-7"></a>
+		</div>
+		<p class="footer__text">© 2015 Axure Themes</p>
+	</div>
+</footer>	</main>
+<script src="js/style.js"></script></body>
+
+</html>
