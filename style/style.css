@@ -111,6 +111,8 @@ body {
   font-family: Open Sans;
   background-color: #000000;
   max-width: 1400px;
+  position: fixed;
+  z-index: 2;
 }
 .header__container {
   display: flex;
